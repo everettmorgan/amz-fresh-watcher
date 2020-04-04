@@ -10,7 +10,7 @@ Monitor the "select a time" page in the Amazon Fresh checkout flow. An alert wil
 1. Go to Amazon Fresh Checkout Flow
 2. On the "select a time" page you'll see glasses in the bottom-left
 
-![example-image1](example-image.png)
+![example-image1](images/example-image.png)
 
 3. Click on the glasses to activate the watcher
 4. You'll see the glasses switch to eyes, and the script will start monitoring for times.
