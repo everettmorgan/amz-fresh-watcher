@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Amazon Fresh Watcher
-// @namespace    http://tampermonkey.net/
+// @namespace    localhost
 // @version      0.1
 // @description  Monitors for Amazon Fresh delivery times.
 // @author       Everett Morgan
