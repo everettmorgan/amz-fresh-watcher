@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Amazon Fresh Watcher
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Monitors for Amazon Fresh delivery times.
+// @author       Everett Morgan
 // @match        https://www.amazon.com/gp/buy/shipoptionselect/*
 // @grant        none
 // ==/UserScript==
