@@ -36,6 +36,8 @@
       el.style.cssText = "border-radius: 5px; position: fixed; bottom: 15px; left : 15px; z-index: 100;";
 
       let button = document.createElement("a");
+      button.style.color = "white";
+      button.style.textDecoration = "none";
       button.href = "#";
 
       let emoji = document.createElement("h1");
