@@ -11,8 +11,8 @@
 (function() {
   'use strict';
 
-  var interval;
-  var count = 0;
+  let interval;
+  let count = 0;
 
   window.onload = () => {
     monitor();
@@ -23,10 +23,8 @@
     switch (action) {
       case "get":
         return localStorage.getItem(key);
-        break;
       case "set":
         return localStorage.setItem(key, value);
-        break;
       default:
         console.error(`Invalid action passed: ${ arguments[0] }`)
     }
@@ -46,9 +44,6 @@
 
       emoji.addEventListener("click", (e) => {
         let val = storage("get", "amz_watcher_mode");
-
-        console.log(val);
-        console.log(e.target);
 
         switch (val) {
           case null:
